@@ -7,7 +7,7 @@ pipeline {
                 echo 'Hello from devops world '
             }
         }
-      stage('Hello') {
+      stage('Backend') {
             steps {
                 echo 'Hello from backend world man '
             }
